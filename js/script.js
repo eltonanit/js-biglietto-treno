@@ -23,3 +23,5 @@ console.log(perc_sconto);
 console.log(price);
 
 console.log(formatPercentage(price));
+
+document.getElementById('output').innerHTML = price;
